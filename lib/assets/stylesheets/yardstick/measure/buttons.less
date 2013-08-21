@@ -1,0 +1,55 @@
+@import "elements";
+@import "yardstick/measure/variables";
+
+.btn,
+a.btn {
+    .border-radius(8px, 8px, 8px, 8px);
+    display: inline-block;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 32px;
+    height: 34px;
+    text-shadow: #fff 1px 1px 1px;
+    padding: 0 8px;
+    border: 1px solid #555;
+    cursor: pointer;
+
+    &.btn-large {
+        height: 48px;
+        line-height: 46px;
+        padding: 0 21px;
+        font-size: 13px;
+    }
+
+    &.btn-mini {
+        height: 28px;
+        line-height: 28px;
+        font-size: 11px;
+        padding: 0 5px;
+        .border-radius(4px, 4px, 4px, 4px);
+    }
+
+    &:hover {
+        color: #000;
+        border-color: #222;
+        text-decoration: none;
+    }
+}
+
+.btn {
+    color: #555;
+    .gradient(#ccc, #dedfdf, #fff);
+
+    &.btn-primary {
+        font-weight: normal;
+        color: rgba(255,255,255, 0.95);
+        text-shadow: #000 1px 1px 1px;
+        .gradient(@measure-font-green, @measure-green-dark, @measure-green-light);
+
+        &:hover {
+            color: #fff;
+            text-shadow: @measure-font-black 1px 1px 1px;
+        }
+    }
+}
+

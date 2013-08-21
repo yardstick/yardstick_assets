@@ -1,4 +1,6 @@
 require "yardstick-assets/version"
+require 'lesselements-rails'
+require 'less-rails-bootstrap'
 
 module YardstickAssets
   class Engine < ::Rails::Engine

@@ -1,0 +1,34 @@
+@import "yardstick/measure/variables";
+@import "elements";
+
+.navbar {
+    .gradient(@measure-font-green, @measure-green-dark, @measure-green-light);
+    height: @measure-navbar-height;
+    line-height: @measure-navbar-height;
+    padding: 0 1.5em;
+    color: white;
+
+    .brand {
+        color: white;
+        font-size: 15pt;
+        text-shadow: 1px 1px 3px #000;
+        display: inline-block;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .nav {
+        margin: 0;
+        li > a {
+            color: white;
+            display: inline-block;
+        }
+    }
+}
+
+.nav {
+    list-style: none;
+    display: inline-block;
+}
