@@ -53,3 +53,15 @@ a.btn {
     }
 }
 
+.btn:disabled {
+    .gradient(#777, #888, #333);
+    text-shadow: none;
+    color: rgba(255,255,255, 0.85);
+
+    &:hover {
+        color: rgba(255,255,255, 0.85);
+        text-shadow: none;
+        cursor: not-allowed;
+    }
+}
+
