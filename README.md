@@ -4,7 +4,7 @@ Gemfile for making measure integrated applications look like measure.
 
 # Change Log
 
-v 0.1.0
+v 0.2.0
 
 * Removed navbar padding by default. If your navbar requires padding to look sexy, add it in your application's stylesheets!
 
