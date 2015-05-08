@@ -19,7 +19,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "lesselements-rails", ">= 0.9"
-  spec.add_runtime_dependency "less-rails-bootstrap", '~> 2.3.3'
 
   spec.post_install_message = <<-MSG
     You're upgrading to 0.2.0. Make sure you check the change log to see how your app will be affected!
